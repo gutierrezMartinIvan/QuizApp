@@ -1,8 +1,7 @@
 package ar.beniko.myquizapp
 
 object Constants {
-
-    fun getQuestions(question: String): ArrayList<Question> = createQuestions(question)
+    fun getQuestions(): ArrayList<Question> = createQuestions("What country does this flag belong to")
 
     private fun createQuestions(question: String): ArrayList<Question> {
         val questions = ArrayList<Question>()
@@ -22,9 +21,9 @@ object Constants {
         questions.add(que2)
 
         val que3 = Question(
-            3, question,
-            R.drawable.ic_flag_of_belgium, "India",
-            "New Zealand", "Belgium", "Kuwat", 3
+            3, question, R.drawable.ic_flag_of_belgium,
+            "India", "New Zealand",
+            "Belgium", "Kuwat", 3
         )
         questions.add(que3)
 

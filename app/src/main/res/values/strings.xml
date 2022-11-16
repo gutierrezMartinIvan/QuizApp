@@ -4,4 +4,8 @@
     <string name="quiz_app">Quiz App</string>
     <string name="username">Please enter your name</string>
     <string name="start">Start</string>
+    <string name="result">Result</string>
+    <string name="image">image</string>
+    <string name="hey_congratulations">Hey, Congratulations!</string>
+    <string name="finish">FINISH</string>
 </resources>
